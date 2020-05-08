@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(a, b) {
 }
 
 function destructivelyAddElementToBeginningOfArray(a, b) {
-  var a = [b, ...a]
+  a = [b, ...a]
   return a;
 }
 
@@ -19,6 +19,6 @@ function addElementToEndOfArray(a, b) {
 }
 
 function destructivelyAddElementToEndOfArray(a, b) {
-  var a = [...a, b]
+  a = [...a, b]
   return a;
 }
